@@ -5,7 +5,7 @@ const {
   createOpportunity,
   updateOpportunity,
   deleteOpportunity,
-} = require('../controllers/opportunityController');
+} = require('../controllers/OpportunityController');
 const { protect } = require('../middleware/AuthMiddleware');
 
 const router = express.Router();
