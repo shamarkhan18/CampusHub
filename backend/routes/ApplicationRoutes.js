@@ -4,7 +4,7 @@ const {
   createApplication,
   updateApplication,
   deleteApplication,
-} = require('../controllers/applicationController');
+} = require('../controllers/ApplicationController');
 const { protect } = require('../middleware/AuthMiddleware');
 
 const router = express.Router();
