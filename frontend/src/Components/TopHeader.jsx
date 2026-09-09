@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../Context/AuthContext.JSX';
+import { useAuth } from '../Context/AuthContext.jsx';
 
 function greeting() {
   const h = new Date().getHours();
